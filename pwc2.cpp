@@ -4,7 +4,7 @@
 using namespace std;
 
 void incomeTax (float& income) {
-	float federalTax = income*.085;
+	float federalTax = income*.084;
 	float cantonalCommunal = income*.1604;
 
 	cout<<"Federal Tax owed is: "<<federalTax<<endl;
